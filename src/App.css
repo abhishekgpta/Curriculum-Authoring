@@ -36,3 +36,143 @@
     transform: rotate(360deg);
   }
 }
+/*--------------------mycss-----------*/
+.image-upload>input {
+  display: none;
+}
+.image-upload{
+  margin-right: 10px;
+}
+.app__title{
+  /* text-align: center; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 14px;
+  align-items: start;
+}
+.app__title h1{
+  margin: 0px;
+}
+.app__title img{
+  cursor: pointer;
+}
+.app__container{
+  padding: 0 50px;
+}
+.app__course{
+  padding: 0 50px;
+}
+.app__course_content{
+
+}
+.app_course_title{
+  color:#d3cdcd;
+  border-bottom: 2px solid #d3cdcd;
+  margin-bottom:0px;
+}
+.app__course_header p{
+  margin:0px;
+  font-size:0.8rem; 
+  color:#d3cdcd;
+}
+.app__course_header{
+  display:flex; 
+  padding:5px 0px;
+}
+.app__course_header_1{
+  flex:0.2 1 0;
+}
+.app__course_header_1 > h4{
+  margin:0px;
+}
+.app__course_header_2 > h4{
+  margin:0px;
+}
+.app__course_header_2{
+  flex:0.8 1 0
+}
+.app__course__body{
+  display:flex;
+  height:40px;
+}
+.app__course__body_action{
+  flex:0.1 1 0;
+  padding:10px 0;
+}
+.app__standard__table__standard{
+  position:relative;
+  flex:0.9 1 0;
+  display:flex;
+}
+.app__course_border{
+  border-bottom:3px solid #d3cdcd;
+}
+.app_course_add_standard{
+  margin-top: 10px;
+}
+.app_course_add_standard > button{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  font-size: 1.3rem;
+  padding:10px;
+  border-radius:5px;
+  background-color:cadetblue;
+  color: aliceblue;
+}
+.app_course_add_standard > button > img{
+  margin-right: 5px;
+}
+.app__standard__table__action{
+  display: grid;
+  grid-template-columns: 25px 25px 25px 25px;
+}
+.app__standard__table__action > img{
+  cursor: pointer;
+}
+.app_standard_indent{
+  margin-right:25px;
+}
+input {
+  width:100%;
+  border: 0;
+  padding: 0;
+  padding:8px 110px;
+  flex: 1;
+  font-size: 1rem;
+  outline: none;
+}
+input::placeholder{
+    color: #d3cdcd;
+    font-weight: bold;
+}
+.standard__text{
+  display:inline-block; 
+  width:100%;
+  font-weight: bold;
+  color:darkgray;
+  position:relative;
+  padding:8px 110px;
+}
+.standard__text__empty{
+  color: #d3cdcd;
+  font-weight: bold;
+}
+.standard__color-0{
+  color: #34ace2;
+}
+.standard__color-1{
+  color:black;
+}
+.standard__color-2{
+  color:darkgray;
+}
+.indentation::before{
+  content: " ";
+  position: absolute;
+  width: 30px;
+  top: 0;
+  bottom: 0;
+  right:calc(100% );
+  background-color: #ececec;
+}

@@ -52,7 +52,7 @@ export default (props) => {
           <span
             className={
               title.length == 0
-                ? "standard__text standard__text__empty"
+                ? `standard__text standard__text__empty `
                 : `standard__text indentation standard__color-${indentation}`
             }
             onClick={(e) => {

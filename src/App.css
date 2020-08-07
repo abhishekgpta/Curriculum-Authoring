@@ -1,41 +1,3 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 /*--------------------mycss-----------*/
 .image-upload>input {
   display: none;
@@ -44,7 +6,6 @@
   margin-right: 10px;
 }
 .app__title{
-  /* text-align: center; */
   display: flex;
   justify-content: space-between;
   margin-top: 14px;
@@ -129,6 +90,7 @@
 }
 .app__standard__table__action > img{
   cursor: pointer;
+  opacity: 0.4;
 }
 .app_standard_indent{
   margin-right:25px;
